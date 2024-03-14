@@ -3,29 +3,16 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-.bg-area {
-    padding: 40px;
-    background: url(images/bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
-}
+
 .main-body {
-    display: block;
-    width: 100%;
-}
-.main-body .content-area {
-    /* background: linear-gradient(90deg, hsla(170, 94%, 94%, 1) 0%, hsla(132, 56%, 98%, 1) 35%, hsla(193, 47%, 93%, 1) 100%); */
-    padding: 20px;
-    border-radius: 20px;
     background: linear-gradient(to right, #E0FFFA, #F9FEFA, #E5F3F6);
 }
+.main-body .content-area {
+    border-radius: 20px;
+}
 .content-area .content-box {
-    width: 90%;
+	width: 95%;
+	padding: 20px 30px 20px 20px;
 }
 .content-box .header-area .logo img {
     width: 40px;
@@ -124,21 +111,23 @@ body {
     margin-left: auto;
 }
 .search-bar form {
-    width: 600px;
+    max-width: 600px;
     margin-left: auto;  
     margin-right: auto;
 }
 .search-bar form input {
-	width: 600px;
+	width: 100%;
 	background: #E8F9E8;
 	outline: none;
 	border: 1px solid rgba(0 , 0 ,0 , 0.2);
 	padding: 15px;
 	border-radius: 35px;
+    transition: all 0.3s ease;
 }
 .search-bar form .search-input {
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 .search-bar form .search-icon {
     position: absolute;
@@ -288,8 +277,17 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
+.search-bar form {
+    position: relative !important;
+}
 .search-sug {
     display: none;
+    position: absolute !important;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0px 5px 8px 3px rgba(0,0,0, 0.2);
 }
 .form-shawdo {
 	background: #fff;
@@ -371,7 +369,7 @@ body {
 }
 .content-box-2 .inner-box img {
     width: 100%;
-    height: 140px;
+    height: 130px;
     position: relative;
 }
 .content-box-2 .inner-box p {
@@ -382,11 +380,14 @@ body {
     transform: translate(-50% , 0);
     background: rgba(0 , 0 ,0 , 0.4);
     display: block;
-    width: 87%;
+    width: 100%;
     color: #fff;
     margin: 0;
     padding: 5px 0;
     border-radius: 5px;
+}
+.carousel-one {
+	height: auto;
 }
 
 .live-tracker {
@@ -470,7 +471,7 @@ body {
     padding-top: 10px;
 }
 .top-artecl {
-    margin-top: 20px;
+    margin-top: 50px;
     padding-top: 30px;
     padding-left: 10px;
     background: #fff;
@@ -498,4 +499,65 @@ body {
     font-size: 14px;
     padding: 5px 0;
     color: rgba(0 , 0 ,0 , 0.4);
+}
+
+
+
+
+/* side nav area style start hare  */
+.side-nav {
+    background: #fff;
+    width: 5%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-top .menu-humber {
+    cursor: pointer;
+    background: #E3F3F9;
+    padding: 12px 10px;
+    border-radius: 50%;
+}
+.navbar-top .menu-humber span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #343a34;
+}
+.navbar-top .menu-humber .span-middle {
+    width: 20px;
+    margin-left: auto;
+}
+.navbar-top .bookmark ul {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+}
+.navbar-top .bookmark ul li a img {
+    width: 25px;
+}
+.navbar-top .bookmark ul li {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar-top .bookmark ul li a {
+	display: flex;
+	padding: 10px;
+	background: #E0FFFA;
+	border-radius: 50%;
+	align-content: center;
+	justify-content: center;
+}
+
+.side-nav a {
+    display: block;
+    width: 40px;
+    height: 40px; 
+}
+.user-account a img {
+    width: 100%;
+    border-radius: 50%;
 }

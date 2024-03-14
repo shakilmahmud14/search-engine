@@ -8,371 +8,417 @@
     <link rel="stylesheet" href="assist/css/bootstrap.css">
         <!-- fontawsome css file -->
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
+
+    <link rel="stylesheet" href="assist/css/owl.theme.default.css">
+    <link rel="stylesheet" href="assist/css/owl.carousel.css">
         <!-- main css file -->
     <link rel="stylesheet" href="style.css">
+        <!-- responsive css file  -->
+    <link rel="stylesheet" href="assist/css/responsive.css">
 </head>
 <body>
-    <div class="bg-area">
-        <div class="main-body">
-            <div class="container-flud">
-                <div class="content-area d-flex align-items-center">
-                    <div class="content-box">
-                        <div class="header-area d-flex align-items-center justify-content-between ">
-                            <div class="logo">
-                                <a href="#"><img src="images/logo.png" alt="Image Not found"></a>
+    <div class="main-body">
+        <div class="container-fluid pr-lg-0">
+            <div class="content-area d-flex">
+                <div class="content-box">
+                    <div class="header-area d-flex align-items-center justify-content-between ">
+                        <div class="logo m-menu-btn">
+                            <a href="#"><img src="images/logo.png" alt="Image Not found"></a>
+                            <div class="menu-humber">
+                                <span></span>
+                                <span class="span-middle mt-1"></span>
+                                <span class="mt-1"></span>
                             </div>
-                            <div class="header-content d-flex align-items-center">
-                                <div class="theme-mode text-center">
-                                    <div class="light-mode">
-                                        <a class="m-0" href="#"><img src="images/light-mode.png" alt=""></a>
-                                    </div>
-                                    <div class="night-mode">
-                                        <a class="m-0" href="#"><img src="images/moon.png" alt=""></a>
-                                    </div>
+                        </div>
+                        <div class="header-content d-flex align-items-center">
+                            <div class="theme-mode text-center">
+                                <div class="light-mode">
+                                    <a class="m-0" href="#"><img src="images/light-mode.png" alt=""></a>
                                 </div>
-                                <div class="weather-time d-flex align-items-center">
-                                    <div class="weather d-flex align-items-center">
-                                        <img src="images/weather-logo.png" alt="">
-                                        <h3>29°C</h3>
-                                    </div>
-                                    <div class="time text-left">
-                                        <h3>18:00</h3>
-                                        <p>Wed, 13 Mar</p>
-                                    </div>
+                                <div class="night-mode">
+                                    <a class="m-0" href="#"><img src="images/moon.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="weather-time d-flex align-items-center">
+                                <div class="weather d-flex align-items-center">
+                                    <img src="images/weather-logo.png" alt="">
+                                    <h3>29°C</h3>
+                                </div>
+                                <div class="time text-left">
+                                    <h3>18:00</h3>
+                                    <p>Wed, 13 Mar</p>
                                 </div>
                             </div>
                         </div>
-                            <!-- header area end hare -->
-                            <!-- feature area start hare   -->
-                        <div class="feature-area">
-                            <div class="feature-content text-center">
-                                <h3>Ask real questions</h3>
-                                <h2>Get complete answers</h2>
-                            </div>
-                            <div class="search-bar text-center">
-                                <form action="">
-                                    <div class="search-input"><input type="text" placeholder="Search Anything">
-                                        <a class="search-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                    </div>
-                                    <div class="search-sug text-left">
-                                        <div class="suggest-cnt">
-                                            <p>I'm searching for..</p>
-                                            <div class="inner-items">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><i class="fa-solid fa-user-group"></i> People</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><i class="fa-regular fa-building"></i> Companies</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><i class="fa-solid fa-bolt"></i> Actions</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">More <i class="fa-solid fa-angle-down"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="collection">
-                                            <p class="pl-3">Collection</p>
+                    </div>
+                        <!-- header area end hare -->
+                        <!-- feature area start hare   -->
+                    <div class="feature-area">
+                        <div class="feature-content text-center">
+                            <h3>Ask real questions</h3>
+                            <h2>Get complete answers</h2>
+                        </div>
+                        <div class="search-bar text-center">
+                            <form action="">
+                                <div class="search-input" id="boox"><input  type="text" placeholder="Search Anything">
+                                    <a class="search-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </div>
+                                <div id="box" class="search-sug text-left">
+                                    <div class="suggest-cnt">
+                                        <p>I'm searching for..</p>
+                                        <div class="inner-items">
                                             <ul>
                                                 <li>
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between cltn-items cltn-active">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-border-all"></i>
-                                                                <p>Manage attributes</p>
-                                                                <span>My collection</span>
-                                                            </div>
-                                                            <div class="sr-content d-flex align-items-center">
-                                                                <div class="chart-line">
-                                                                    <span></span>
-                                                                    <span class="span-2"></span>
-                                                                    <span></span>
-                                                                </div>
-                                                                <p>3</p>
-                                                                <span class="key">E</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+                                                    <a href="#"><i class="fa-solid fa-user-group"></i> People</a>
                                                 </li>
-                                                <li class="mt-1">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between cltn-items">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-plus"></i>
-                                                                <p>Add collection entry</p>
-                                                                <span>My collection</span>
-                                                            </div>
-                                                            <div class="sr-content sr-content2 d-flex align-items-center">
-                                                                <div class="chart-line">
-                                                                    <span></span>
-                                                                    <span class="span-2"></span>
-                                                                    <span></span>
-                                                                </div>
-                                                                <p>3</p>
-                                                                <span class="key">E</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+                                                <li class="companys">
+                                                    <a href="#"><i class="fa-regular fa-building"></i> Companies</a>
                                                 </li>
-                                                <p class="p-3 quick-action">Quick Action</p>
                                                 <li>
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-clock"></i>
-                                                                <p>Create Task</p>
-                                                            </div>
-                                                            <div class="sr-content  d-flex align-items-center">
-                                                                <span class="key">T</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+                                                    <a href="#"><i class="fa-solid fa-bolt"></i> Actions</a>
                                                 </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-gear"></i>
-                                                                <p>Open Personal Satting</p>
-                                                            </div>
-                                                            <div class="sr-content sr-content2 d-flex align-items-center">
-                                                                <div class="chart-line">
-                                                                    <span></span>
-                                                                    <span class="span-2"></span>
-                                                                    <span></span>
-                                                                </div>
-                                                                <p>3</p>
-                                                                <span class="key">E</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-plus"></i>
-                                                                <p>Create Note</p>
-                                                            </div>
-                                                            <div class="sr-content  d-flex align-items-center">
-                                                                <span class="key">N</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-plus"></i>
-                                                                <p>Add Company</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-plus"></i>
-                                                                <p>Add Person</p>
-                                                            </div>
-                                                            <div class="sr-content d-flex align-items-center">
-                                                                <div class="chart-line">
-                                                                    <span></span>
-                                                                    <span class="span-2"></span>
-                                                                    <span></span>
-                                                                </div>
-                                                                <p>3</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                                <p>Compose Email</p>
-                                                            </div>
-                                                            <div class="sr-content  d-flex align-items-center">
-                                                                <span class="key">E</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="mt-3">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center px-3 justify-content-between action">
-                                                            <div class="collection-content d-flex align-items-center">
-                                                                <i class="fa-solid fa-tablet"></i>
-                                                                <p>Note Template</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+                                                <li>
+                                                    <a href="#">More <i class="fa-solid fa-angle-down"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="help p-3">
-                                            <p>Help</p>
-                                            <div class="feedback d-flex align-items-center justify-content-between">
-                                                <div class="feedback-cnt d-flex align-items-center">
-                                                    <i class="fa-solid fa-comment"></i>
-                                                    <p class="m-0">Send feedback</p>
-                                                </div>
-                                                <div class="feedback-btn d-flex align-items-center">
-                                                   <div class="more-btn d-flex align-items-center">
-                                                        <a href="#">More</a>
-                                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                                   </div>
-                                                   <div class="add-btn ml-2">
-                                                    <a href="#">Add</a>
-                                                   </div>
-                                                </div>
+                                    </div>
+                                    <div class="collection">
+                                        <p class="pl-3">Collection</p>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between cltn-items cltn-active">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-border-all"></i>
+                                                            <p>Manage attributes</p>
+                                                            <span>My collection</span>
+                                                        </div>
+                                                        <div class="sr-content d-flex align-items-center">
+                                                            <div class="chart-line">
+                                                                <span></span>
+                                                                <span class="span-2"></span>
+                                                                <span></span>
+                                                            </div>
+                                                            <p>3</p>
+                                                            <span class="key">E</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-1">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between cltn-items">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                            <p>Add collection entry</p>
+                                                            <span>My collection</span>
+                                                        </div>
+                                                        <div class="sr-content sr-content2 d-flex align-items-center">
+                                                            <div class="chart-line">
+                                                                <span></span>
+                                                                <span class="span-2"></span>
+                                                                <span></span>
+                                                            </div>
+                                                            <p>3</p>
+                                                            <span class="key">E</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <p class="p-3 quick-action">Quick Action</p>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-clock"></i>
+                                                            <p>Create Task</p>
+                                                        </div>
+                                                        <div class="sr-content  d-flex align-items-center">
+                                                            <span class="key">T</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-gear"></i>
+                                                            <p>Open Personal Satting</p>
+                                                        </div>
+                                                        <div class="sr-content sr-content2 d-flex align-items-center">
+                                                            <div class="chart-line">
+                                                                <span></span>
+                                                                <span class="span-2"></span>
+                                                                <span></span>
+                                                            </div>
+                                                            <p>3</p>
+                                                            <span class="key">E</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                            <p>Create Note</p>
+                                                        </div>
+                                                        <div class="sr-content  d-flex align-items-center">
+                                                            <span class="key">N</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                            <p>Add Company</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                            <p>Add Person</p>
+                                                        </div>
+                                                        <div class="sr-content d-flex align-items-center">
+                                                            <div class="chart-line">
+                                                                <span></span>
+                                                                <span class="span-2"></span>
+                                                                <span></span>
+                                                            </div>
+                                                            <p>3</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                            <p>Compose Email</p>
+                                                        </div>
+                                                        <div class="sr-content  d-flex align-items-center">
+                                                            <span class="key">E</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="mt-3">
+                                                <a href="#">
+                                                    <div class="d-flex align-items-center px-3 justify-content-between action">
+                                                        <div class="collection-content d-flex align-items-center">
+                                                            <i class="fa-solid fa-tablet"></i>
+                                                            <p>Note Template</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="help p-3">
+                                        <p>Help</p>
+                                        <div class="feedback d-flex align-items-center justify-content-between">
+                                            <div class="feedback-cnt d-flex align-items-center">
+                                                <i class="fa-solid fa-comment"></i>
+                                                <p class="m-0">Send feedback</p>
+                                            </div>
+                                            <div class="feedback-btn d-flex align-items-center">
+                                               <div class="more-btn d-flex align-items-center">
+                                                    <a href="#">More</a>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                               </div>
+                                               <div class="add-btn ml-2">
+                                                <a href="#">Add</a>
+                                               </div>
                                             </div>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
-                            <div class="d-flex align-items-center  justify-content-center leg">
-                                <p>Language Offered:</p>
-                                <ul>
-                                    <li><a href="#">Hindi</a></li>
-                                    <li><a href="#">Marathi</a></li>
-                                    <li><a href="#">Bnagla</a></li>
-                                    <li><a href="#">Panjabi</a></li>
-                                    <li><a href="#">Kanadia</a></li>
-                                    <li><a href="#">Telugu</a></li>
-                                    <li><a href="#">Urdu</a></li>
-                                    <li><a href="#">Gujarati</a></li>
-                                    <li><a href="#">Oriya</a></li>
-                                    <li><a href="#">Malyali</a></li>
-                                </ul>
-                            </div>
-                            <div class="try-this d-flex align-items-center justify-content-center pt-3">
-                                <p>Try this:</p>
-                                <ul>
-                                    <li class="this-active"><a href="#">Chat</a></li>
-                                    <li><a href="#">Images</a></li>
-                                    <li><a href="#">Videos</a></li>
-                                    <li><a href="#">Maps</a></li>
-                                </ul>
-                            </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="content-box-2">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="inner-box">
-                                                <img src="images/news.jpg" alt="">
+                        <div class="d-flex align-items-center  justify-content-center leg">
+                            <p>Language Offered:</p>
+                            <ul>
+                                <li><a href="#">Hindi</a></li>
+                                <li><a href="#">Marathi</a></li>
+                                <li><a href="#">Bnagla</a></li>
+                                <li><a href="#">Panjabi</a></li>
+                                <li><a href="#">Kanadia</a></li>
+                                <li><a href="#">Telugu</a></li>
+                                <li><a href="#">Urdu</a></li>
+                                <li><a href="#">Gujarati</a></li>
+                                <li><a href="#">Oriya</a></li>
+                                <li><a href="#">Malyali</a></li>
+                            </ul>
+                        </div>
+                        <div class="try-this d-flex align-items-center justify-content-center pt-3">
+                            <p>Try this:</p>
+                            <ul>
+                                <li class="this-active"><a href="#">Chat</a></li>
+                                <li><a href="#">Images</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Maps</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-box-2">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="carousel-one owl-theme owl-carousel">
+                                    <div class="carousel-content">
+                                        <div class="inner-box">
+                                            <a href="#"><img src="images/news.jpg" alt="">
                                                 <p>News</p>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col">
-                                            <div class="inner-box">
-                                                <img src="images/entertainment.jpg" alt="">
-                                                <p>Entertainment</p>
-                                            </div>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <div class="inner-box">
+                                           <a href="#">
+                                            <img src="images/entertainment.jpg" alt="">
+                                            <p>entertainment</p>
+                                           </a>
                                         </div>
-                                        <div class="col">
-                                            <div class="inner-box">
-                                                <img src="images/lifestyle.avif" alt="">
-                                                <p>Lifestyle</p>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="inner-box">
+                                    </div>
+                                    <div class="carousel-content">
+                                        <div class="inner-box">
+                                            <a href="#">
                                                 <img src="images/Gaming1.webp" alt="">
                                                 <p>Gaming</p>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="inner-box">
-                                                <img src="images/helthy.webp" alt="">
-                                                <p>Health</p>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="top-artecl">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <h3>Top article</h3>
-                                                <div class="d-flex py-3">
-                                                    <p>umn</p>
-                                                    <div class="pl-3">
-                                                        <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
-                                                        <span class="d-block">Ajtak . 5 Hours</span>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex">
-                                                    <p>umn</p>
-                                                    <div class="pl-3">
-                                                        <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
-                                                        <span class="d-block">Ajtak . 5 Hours</span>
-                                                    </div>
+                                    <div class="carousel-content">
+                                        <div class="inner-box">
+                                            <a href="3">
+                                                <img src="images/lifestyle.avif" alt="">
+                                                <p>Lifestyle</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <div class="inner-box">
+                                            <a href="#">
+                                                <img src="images/helthy.webp" alt="">
+                                                <p>Healthy</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-artecl">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h3>Top article</h3>
+                                            <div class="d-flex py-3">
+                                                <p>umn</p>
+                                                <div class="pl-3">
+                                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
+                                                    <span class="d-block">Ajtak . 5 Hours</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="d-flex py-3">
-                                                    <p>umn</p>
-                                                    <div class="pl-3">
-                                                        <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
-                                                        <span class="d-block">Ajtak . 5 Hours</span>
-                                                    </div>
+                                            <div class="d-flex">
+                                                <p>umn</p>
+                                                <div class="pl-3">
+                                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
+                                                    <span class="d-block">Ajtak . 5 Hours</span>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <p>umn</p>
-                                                    <div class="pl-3">
-                                                        <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
-                                                        <span class="d-block">Ajtak . 5 Hours</span>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex py-3">
+                                                <p>umn</p>
+                                                <div class="pl-3">
+                                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
+                                                    <span class="d-block">Ajtak . 5 Hours</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p>umn</p>
+                                                <div class="pl-3">
+                                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia, odit at.</a>
+                                                    <span class="d-block">Ajtak . 5 Hours</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="live-tracker">
-                                        <h3>Cric insights</h3>
-                                        <span></span>
-                                        <div class="tracker-block">
-                                            <div class="live-name d-flex align-items-center justify-content-between">
-                                                <a class="live" href="#">Live</a>
-                                                <div class="live-title">
-                                                    <a href="#">Cricket International <i class="fa-solid fa-chevron-down"></i></a>
-                                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="live-tracker">
+                                    <h3>Cric insights</h3>
+                                    <span></span>
+                                    <div class="tracker-block">
+                                        <div class="live-name d-flex align-items-center justify-content-between">
+                                            <a class="live" href="#">Live</a>
+                                            <div class="live-title">
+                                                <a href="#">Cricket International <i class="fa-solid fa-chevron-down"></i></a>
                                             </div>
-                                            <div class="live-scrore d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center team-one">
-                                                    <img src="images/bd-flag.webp" alt="">
-                                                    <div class="team-one-score">
-                                                        <h3>Bangladesh</h3>
-                                                        <p class="score">223/4</p>
-                                                        <p>(39 Overs)</p>
-                                                    </div>
-                                                </div>
-                                                <p class="m-0">vs</p>
-                                                <div class="d-flex align-items-center team-one">
-                                                    <div class="team-one-score text-right pr-2">
-                                                        <h3>Srilanka</h3>
-                                                        <p class="score">255</p>
-                                                        <p>(48 Overs)</p>
-                                                    </div>
-                                                    <img src="images/srilanka-flag.png" alt="">
-                                                </div>
-                                            </div>
-                                            <p class="m-0 Require-run">Bangladesh Require 11 runs in 40 balls</p>
                                         </div>
+                                        <div class="live-scrore d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center team-one">
+                                                <img src="images/bd-flag.webp" alt="">
+                                                <div class="team-one-score">
+                                                    <h3>Bangladesh</h3>
+                                                    <p class="score">223/4</p>
+                                                    <p>(39 Overs)</p>
+                                                </div>
+                                            </div>
+                                            <p class="m-0">vs</p>
+                                            <div class="d-flex align-items-center team-one">
+                                                <div class="team-one-score text-right pr-2">
+                                                    <h3>Srilanka</h3>
+                                                    <p class="score">255</p>
+                                                    <p>(48 Overs)</p>
+                                                </div>
+                                                <img src="images/srilanka-flag.png" alt="">
+                                            </div>
+                                        </div>
+                                        <p class="m-0 Require-run">Bangladesh Require 11 runs in 40 balls</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="side-nav"></div>
+                </div>
+                <div class="side-nav">
+                    <div class="navbar-top">
+                        <div class="menu-humber">
+                            <span></span>
+                            <span class="span-middle mt-1"></span>
+                            <span class="mt-1"></span>
+                        </div>
+                        <div class="bookmark">
+                            <ul>
+                                <li><a href="#">
+                                    <img src="images/Gmail.png" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="images/Youtube_logo.png" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="images/Facebook.png" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="images/Instagram.webp" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-account">
+                        <a href="#">
+                            <img src="images/user.jpg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -381,6 +427,7 @@
     <script src="assist/js/jquery-main.js"></script>
             <!-- bootstrap js file -->
     <script src="assist/js/bootstrap.bundle.js"></script>
+    <script src="assist/js/owl.carousel.js"></script>
         <!-- main js file -->
     <script src="assist/js/scripts.js"></script>
 </body>
